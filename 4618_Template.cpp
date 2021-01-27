@@ -33,7 +33,7 @@ void test_com()
 {
   // Comport class (change port to your MSP device port)
   Serial com;
-  com.open("COM3");
+  com.open("COM4");
 
   // TX and RX strings
   std::string tx_str = "G 1 15\n";
